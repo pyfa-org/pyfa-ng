@@ -27,7 +27,7 @@ from .data.cache_handler import *
 from .data.cache_handler.exception import TypeFetchError
 from .data.data_handler import *
 from .data.source import SourceManager
-from .fit import Fit
+from .fit import fit
 from .fit.holder.item import *
 from .fit.restriction_tracker.exception import ValidationError
 from .fit.tuples import DamageTypes
