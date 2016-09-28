@@ -1,85 +1,61 @@
-"""
-Distribution builder for pyfa.
-
-Windows executable: python setup.py build
-Windows executable + installer: python setup.py bdist_msi
-"""
-#import requests.certs
-
-# The modules that contain the bulk of teh source
-packages = ['gui', 'services']
-# Extra files that will be copied into the root directory
-include_files = ['eve.db', 'LICENSE', 'README.md', (requests.certs.where(),'cacert.pem')]
-# this is read by dist.py to package the icons
-#icon_dirs = ['gui', 'icons', 'renders']
-
-includes = []
-#  collection.abc due to bug:
-#  https://bitbucket.org/anthony_tuininga/cx_freeze/issues/127/collectionssys-error
-# All the other stuff is crap that I have. VENV isn't working right for me for a few dependancies, so bleh
-excludes = ['Tkinter', 'collections.abc', 'IPython', 'PyQt4', 'PIL', 'nose', 'tornado', 'zmq', 'mysql', 'scipy']
-
-
-
-app_name = 'pyfa-ng'
-app_version = '{}'.format(config.version)
-app_description = 'Python fitting assistant'
-
-# Windows-specific options
-build_options_winexe = {
-    'packages': packages,
-    'include_files': include_files,
-    'includes': includes,
-    'excludes': excludes,
-    'compressed': True,
-    'optimize': 2,
-    'include_msvcr': True,
-}
-
-build_options_winmsi = {
-    'upgrade_code': '{E80885AC-31BA-4D9A-A04F-9E5915608A6C}',
-    'add_to_path': False,
-    'initial_target_dir': r'[ProgramFilesFolder]\{}'.format(app_name),
-}
-
-
-# Mac-specific options (untested)
-build_options_macapp = {
-    'iconfile': 'dist_assets/mac/pyfa.icns',
-    'bundle_name': app_name,
-}
-
-build_options_macdmg = {
-    'volume_label': app_name,
-    'applications-shortcut': True,
-}
-
-
-# Generic executable options
-executable_options = {
-    'script': 'pyfa.py',
-    # Following are windows-specific options, they are stored
-    # on a per-executable basis
-    'base': 'Win32GUI' if sys.platform=='win32' else None,
-    'icon': 'dist_assets/win/pyfa.ico',
-    'shortcutDir': 'DesktopFolder',
-    'shortcutName': app_name,
-}
-
-# Required packages to install
-install_requires = ['kivy']
+from distutils.core import setup
 
 setup(
-    name=app_name,
-    version=app_version,
-    description=app_description,
-    install_requires=install_requires,
-    options = {
-        'build_exe': build_options_winexe,
-        'bdist_msi': build_options_winmsi,
-        'bdist_mac': build_options_macapp,
-        'bdist_dmg': build_options_macdmg,
-    },
-    executables=[Executable(**executable_options)]
-
+    name='Pyfa NG',
+    version='.1',
+    packages=['services.eos', 'services.eos.fit', 'services.eos.fit.holder', 'services.eos.fit.holder.item',
+              'services.eos.fit.holder.mixin', 'services.eos.fit.holder.mixin.holder',
+              'services.eos.fit.holder.container', 'services.eos.fit.stat_tracker',
+              'services.eos.fit.stat_tracker.register', 'services.eos.fit.stat_tracker.container',
+              'services.eos.fit.restriction_tracker', 'services.eos.fit.restriction_tracker.register',
+              'services.eos.fit.attribute_calculator', 'services.eos.data', 'services.eos.data.cache_object',
+              'services.eos.data.data_handler', 'services.eos.data.cache_handler', 'services.eos.data.cache_generator',
+              'services.eos.data.cache_generator.modifier_builder',
+              'services.eos.data.cache_generator.modifier_builder.modifier_info',
+              'services.eos.data.cache_generator.modifier_builder.expression_tree',
+              'services.eos.data.cache_customizer', 'services.eos.util', 'services.eos.const', 'services.eos.tests',
+              'services.eos.tests.fit', 'services.eos.tests.fit.specials', 'services.eos.tests.fit.holder_mixin',
+              'services.eos.tests.fit.holder_mixin.tanking', 'services.eos.tests.fit.holder_mixin.chargeable',
+              'services.eos.tests.fit.holder_mixin.damage_dealer',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.bomb',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.drone',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.turret',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.missile',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.doomsday',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.specials',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.smartbomb',
+              'services.eos.tests.fit.holder_mixin.damage_dealer.fighterbomber',
+              'services.eos.tests.fit.holder_container', 'services.eos.tests.fit.holder_container.direct',
+              'services.eos.tests.fit.holder_container.ordered', 'services.eos.tests.fit.holder_container.unordered',
+              'services.eos.tests.fit.holder_container.module_racks',
+              'services.eos.tests.fit.holder_container.module_charge', 'services.eos.tests.stat_tracker',
+              'services.eos.tests.stat_tracker.slot', 'services.eos.tests.stat_tracker.damage',
+              'services.eos.tests.stat_tracker.tanking', 'services.eos.tests.stat_tracker.resource',
+              'services.eos.tests.cache_generator', 'services.eos.tests.cache_generator.checks',
+              'services.eos.tests.cache_generator.cleanup', 'services.eos.tests.cache_generator.conversion',
+              'services.eos.tests.modifier_builder', 'services.eos.tests.modifier_builder.etree',
+              'services.eos.tests.modifier_builder.etree.gang', 'services.eos.tests.modifier_builder.etree.local',
+              'services.eos.tests.modifier_builder.etree.special',
+              'services.eos.tests.modifier_builder.etree.erroneous', 'services.eos.tests.modifier_builder.modinfo',
+              'services.eos.tests.modifier_builder.modinfo.gang', 'services.eos.tests.modifier_builder.modinfo.local',
+              'services.eos.tests.modifier_builder.modinfo.special',
+              'services.eos.tests.modifier_builder.modinfo.erroneous', 'services.eos.tests.modifier_builder.special',
+              'services.eos.tests.restriction_tracker', 'services.eos.tests.restriction_tracker.restrictions',
+              'services.eos.tests.attribute_calculator', 'services.eos.tests.attribute_calculator.state',
+              'services.eos.tests.attribute_calculator.special', 'services.eos.tests.attribute_calculator.chaining',
+              'services.eos.tests.attribute_calculator.modifier_domain',
+              'services.eos.tests.attribute_calculator.modifier_domain.direct',
+              'services.eos.tests.attribute_calculator.modifier_domain.direct.disabled_links',
+              'services.eos.tests.attribute_calculator.modifier_domain.filtered',
+              'services.eos.tests.attribute_calculator.modifier_operator',
+              'services.eos.tests.attribute_calculator.modifier_operator.mixed',
+              'services.eos.tests.attribute_calculator.modifier_operator.penaltyImmune',
+              'services.eos.tests.attribute_calculator.modifier_filter_type',
+              'services.eos.tests.attribute_calculator.modifier_source_attribute',
+              'services.eos.tests.attribute_calculator.modifier_target_attribute'],
+    url='https://github.com/pyfa-org/pyfa-ng',
+    license='GPL',
+    author='Pyfa Team',
+    author_email='',
+    description='Fitting tool for EVE Online'
 )
