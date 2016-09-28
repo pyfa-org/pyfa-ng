@@ -19,10 +19,10 @@
 #===============================================================================
 
 
-from .exception import SlotTakenError
-from .list import HolderList
-from .modules import ModuleRacks
-from .restricted_set import HolderRestrictedSet
-from .set import HolderSet
-from .single_onfit import HolderDescriptorOnFit
-from .single_onholder import HolderDescriptorOnHolder
+from services.eos.fit.holder.container.exception import SlotTakenError
+from services.eos.fit.holder.container.list import HolderList
+from services.eos.fit.holder.container.modules import ModuleRacks
+from services.eos.fit.holder.container.restricted_set import HolderRestrictedSet
+from services.eos.fit.holder.container.set import HolderSet
+from services.eos.fit.holder.container.single_onfit import HolderDescriptorOnFit
+from services.eos.fit.holder.container.single_onholder import HolderDescriptorOnHolder

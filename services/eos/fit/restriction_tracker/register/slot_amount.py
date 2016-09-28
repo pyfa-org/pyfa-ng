@@ -24,7 +24,7 @@ from collections import namedtuple
 from eos.const.eos import Restriction, Slot
 from eos.fit.holder.item import Drone
 from eos.fit.restriction_tracker.exception import RegisterValidationError
-from .abc import RestrictionRegister
+from services.eos.fit.restriction_tracker.register.abc import RestrictionRegister
 
 
 SlotAmountErrorData = namedtuple('SlotAmountErrorData', ('slots_used', 'slots_max_allowed'))

@@ -19,22 +19,22 @@
 #===============================================================================
 
 
-from .capital_item import CapitalItemRegister
-from .charge_group import ChargeGroupRegister
-from .charge_size import ChargeSizeRegister
-from .charge_volume import ChargeVolumeRegister
-from .drone_group import DroneGroupRegister
-from .holder_class import HolderClassRegister
-from .max_group import MaxGroupFittedRegister, MaxGroupOnlineRegister, MaxGroupActiveRegister
-from .resource import CpuRegister, PowerGridRegister, CalibrationRegister, DroneBayVolumeRegister, \
+from services.eos.fit.restriction_tracker.register.capital_item import CapitalItemRegister
+from services.eos.fit.restriction_tracker.register.charge_group import ChargeGroupRegister
+from services.eos.fit.restriction_tracker.register.charge_size import ChargeSizeRegister
+from services.eos.fit.restriction_tracker.register.charge_volume import ChargeVolumeRegister
+from services.eos.fit.restriction_tracker.register.drone_group import DroneGroupRegister
+from services.eos.fit.restriction_tracker.register.holder_class import HolderClassRegister
+from services.eos.fit.restriction_tracker.register.max_group import MaxGroupFittedRegister, MaxGroupOnlineRegister, MaxGroupActiveRegister
+from services.eos.fit.restriction_tracker.register.resource import CpuRegister, PowerGridRegister, CalibrationRegister, DroneBayVolumeRegister, \
     DroneBandwidthRegister
-from .rig_size import RigSizeRegister
-from .ship_type_group import ShipTypeGroupRegister
-from .skill_requirement import SkillRequirementRegister
-from .slot_index import SubsystemIndexRegister, ImplantIndexRegister, BoosterIndexRegister
-from .slot_amount import HighSlotRegister, MediumSlotRegister, LowSlotRegister, RigSlotRegister, \
+from services.eos.fit.restriction_tracker.register.rig_size import RigSizeRegister
+from services.eos.fit.restriction_tracker.register.ship_type_group import ShipTypeGroupRegister
+from services.eos.fit.restriction_tracker.register.skill_requirement import SkillRequirementRegister
+from services.eos.fit.restriction_tracker.register.slot_index import SubsystemIndexRegister, ImplantIndexRegister, BoosterIndexRegister
+from services.eos.fit.restriction_tracker.register.slot_amount import HighSlotRegister, MediumSlotRegister, LowSlotRegister, RigSlotRegister, \
     SubsystemSlotRegister, TurretSlotRegister, LauncherSlotRegister, LaunchedDroneRegister
-from .state import StateRegister
+from services.eos.fit.restriction_tracker.register.state import StateRegister
 
 
 __all__ = [

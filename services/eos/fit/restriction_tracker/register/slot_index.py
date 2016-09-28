@@ -25,7 +25,7 @@ from eos.const.eos import Restriction
 from eos.const.eve import Attribute
 from eos.fit.restriction_tracker.exception import RegisterValidationError
 from eos.util.keyed_set import KeyedSet
-from .abc import RestrictionRegister
+from services.eos.fit.restriction_tracker.register.abc import RestrictionRegister
 
 
 SlotIndexErrorData = namedtuple('SlotIndexErrorData', ('holder_slot_index',))

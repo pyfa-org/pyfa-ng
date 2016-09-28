@@ -20,7 +20,7 @@
 
 
 from eos.fit.exception import HolderAlreadyAssignedError
-from .base import HolderContainerBase
+from services.eos.fit.holder.container.base import HolderContainerBase
 
 
 class HolderDescriptorOnFit(HolderContainerBase):

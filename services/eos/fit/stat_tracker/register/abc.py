@@ -19,7 +19,7 @@
 #===============================================================================
 
 
-from abc import ABCMeta, abstractmethod
+from services.eos.fit.stat_tracker.register.abc import ABCMeta, abstractmethod
 
 
 class StatRegister(metaclass=ABCMeta):

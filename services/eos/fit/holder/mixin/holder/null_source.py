@@ -19,7 +19,7 @@
 #===============================================================================
 
 
-from .exception import NoSourceError
+from services.eos.fit.holder.mixin.holder.exception import NoSourceError
 
 
 class NullSourceMeta(type):

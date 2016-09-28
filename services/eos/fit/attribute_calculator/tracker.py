@@ -20,8 +20,8 @@
 
 
 from eos.const.eos import Scope
-from .affector import Affector
-from .register import LinkRegister
+from services.eos.fit.attribute_calculator.affector import Affector
+from services.eos.fit.attribute_calculator.register import LinkRegister
 
 
 class LinkTracker:

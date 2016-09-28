@@ -19,5 +19,5 @@
 #===============================================================================
 
 
-from .map import MutableAttributeMap
-from .tracker import LinkTracker
+from services.eos.fit.attribute_calculator.map import MutableAttributeMap
+from services.eos.fit.attribute_calculator.tracker import LinkTracker

@@ -24,9 +24,9 @@ from collections import namedtuple
 
 from eos import __version__ as eos_version
 from eos.util.repr import make_repr_str
-from .cache_customizer import CacheCustomizer
-from .cache_generator import CacheGenerator
-from .exception import ExistingSourceError, UnknownSourceError
+from services.eos.data.cache_customizer import CacheCustomizer
+from services.eos.data.cache_generator import CacheGenerator
+from services.eos.data.exception import ExistingSourceError, UnknownSourceError
 
 
 logger = getLogger(__name__)

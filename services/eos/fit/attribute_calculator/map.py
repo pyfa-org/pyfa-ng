@@ -26,7 +26,7 @@ from eos.const.eos import Operator
 from eos.const.eve import Category, Attribute
 from eos.data.cache_handler.exception import AttributeFetchError
 from eos.util.keyed_set import KeyedSet
-from .exception import BaseValueError, AttributeMetaError, OperatorError
+from services.eos.fit.attribute_calculator.exception import BaseValueError, AttributeMetaError, OperatorError
 
 
 logger = getLogger(__name__)

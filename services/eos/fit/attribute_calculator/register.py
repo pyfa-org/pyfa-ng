@@ -23,7 +23,7 @@ from logging import getLogger
 
 from eos.const.eos import Domain, FilterType
 from eos.util.keyed_set import KeyedSet
-from .exception import DirectDomainError, FilteredDomainError, FilteredSelfReferenceError, FilterTypeError
+from services.eos.fit.attribute_calculator.exception import DirectDomainError, FilteredDomainError, FilteredSelfReferenceError, FilterTypeError
 
 
 logger = getLogger(__name__)

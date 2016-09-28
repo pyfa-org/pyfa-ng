@@ -20,7 +20,7 @@
 
 
 from eos.const.eve import Attribute
-from .abc import StatRegister
+from services.eos.fit.stat_tracker.register.abc import StatRegister
 
 
 class ResourceUseRegister(StatRegister):

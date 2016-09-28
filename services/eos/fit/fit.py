@@ -23,12 +23,12 @@ from eos.const.eos import State
 from eos.const.eve import Type
 from eos.data.source import SourceManager, Source
 from eos.util.repr import make_repr_str
-from .attribute_calculator import LinkTracker
-from .exception import HolderAlreadyAssignedError, HolderFitMismatchError
-from .holder.container import HolderDescriptorOnFit, HolderList, HolderRestrictedSet, HolderSet, ModuleRacks
-from .holder.item import *
-from .restriction_tracker import RestrictionTracker
-from .stat_tracker import StatTracker
+from services.eos.fit.attribute_calculator import LinkTracker
+from services.eos.fit.exception import HolderAlreadyAssignedError, HolderFitMismatchError
+from services.eos.fit.holder.container import HolderDescriptorOnFit, HolderList, HolderRestrictedSet, HolderSet, ModuleRacks
+from services.eos.fit.holder.item import *
+from services.eos.fit.restriction_tracker import RestrictionTracker
+from services.eos.fit.stat_tracker import StatTracker
 
 
 class Fit:

@@ -19,10 +19,10 @@
 #===============================================================================
 
 
-from .damage_dealer import DamageDealerRegister
-from .resource_use import CpuUseRegister, PowerGridUseRegister, CalibrationUseRegister, \
+from services.eos.fit.stat_tracker.register.damage_dealer import DamageDealerRegister
+from services.eos.fit.stat_tracker.register.resource_use import CpuUseRegister, PowerGridUseRegister, CalibrationUseRegister, \
     DroneBayVolumeUseRegister, DroneBandwidthUseRegister
-from .slot_use import TurretUseRegister, LauncherUseRegister, LaunchedDroneRegister
+from services.eos.fit.stat_tracker.register.slot_use import TurretUseRegister, LauncherUseRegister, LaunchedDroneRegister
 
 
 __all__ = [

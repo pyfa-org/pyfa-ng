@@ -19,4 +19,4 @@
 #===============================================================================
 
 
-from .holder import HolderBase
+from services.eos.fit.holder.mixin.holder.holder import HolderBase

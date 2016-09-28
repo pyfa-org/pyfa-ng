@@ -19,5 +19,5 @@
 #===============================================================================
 
 
-from .exception import ValidationError
-from .tracker import RestrictionTracker
+from services.eos.fit.restriction_tracker.exception import ValidationError
+from services.eos.fit.restriction_tracker.tracker import RestrictionTracker

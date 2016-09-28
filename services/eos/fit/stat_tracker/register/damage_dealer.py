@@ -21,7 +21,7 @@
 
 from eos.fit.holder.mixin.damage_dealer import DamageDealerMixin
 from eos.fit.tuples import DamageTypesTotal
-from .abc import StatRegister
+from services.eos.fit.stat_tracker.register.abc import StatRegister
 
 
 class DamageDealerRegister(StatRegister):

@@ -19,7 +19,7 @@
 #===============================================================================
 
 
-from abc import ABCMeta, abstractmethod
+from services.eos.fit.restriction_tracker.register.abc import ABCMeta, abstractmethod
 
 
 class RestrictionRegister(metaclass=ABCMeta):

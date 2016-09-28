@@ -19,18 +19,18 @@
 #===============================================================================
 
 
-from .booster import Booster
-from .character import Character
-from .charge import Charge
-from .drone import Drone
-from .effect_beacon import EffectBeacon
-from .implant import Implant
-from .module import ModuleHigh, ModuleMed, ModuleLow
-from .rig import Rig
-from .ship import Ship
-from .skill import Skill
-from .stance import Stance
-from .subsystem import Subsystem
+from services.eos.fit.holder.item.booster import Booster
+from services.eos.fit.holder.item.character import Character
+from services.eos.fit.holder.item.charge import Charge
+from services.eos.fit.holder.item.drone import Drone
+from services.eos.fit.holder.item.effect_beacon import EffectBeacon
+from services.eos.fit.holder.item.implant import Implant
+from services.eos.fit.holder.item.module import ModuleHigh, ModuleMed, ModuleLow
+from services.eos.fit.holder.item.rig import Rig
+from services.eos.fit.holder.item.ship import Ship
+from services.eos.fit.holder.item.skill import Skill
+from services.eos.fit.holder.item.stance import Stance
+from services.eos.fit.holder.item.subsystem import Subsystem
 
 __all__ = [
     'Booster',

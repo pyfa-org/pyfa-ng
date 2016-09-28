@@ -19,8 +19,8 @@
 #===============================================================================
 
 
-from .ship_resource import ShipResource
-from .slots import CharSlots, ShipSlots
+from services.eos.fit.stat_tracker.container.ship_resource import ShipResource
+from services.eos.fit.stat_tracker.container.slots import CharSlots, ShipSlots
 
 
 __all__ = [

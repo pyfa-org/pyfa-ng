@@ -20,8 +20,8 @@
 
 
 from eos.const.eos import State
-from .exception import RegisterValidationError, ValidationError
-from .register import *
+from services.eos.fit.restriction_tracker.exception import RegisterValidationError, ValidationError
+from services.eos.fit.restriction_tracker.register import *
 
 
 class RestrictionTracker:

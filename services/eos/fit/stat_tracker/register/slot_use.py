@@ -21,7 +21,7 @@
 
 from eos.const.eos import Slot
 from eos.fit.holder.item import Drone
-from .abc import StatRegister
+from services.eos.fit.stat_tracker.register.abc import StatRegister
 
 
 class SlotUseRegister(StatRegister):

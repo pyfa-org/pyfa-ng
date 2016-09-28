@@ -19,4 +19,4 @@
 #===============================================================================
 
 
-from .tracker import StatTracker
+from services.eos.fit.stat_tracker.tracker import StatTracker

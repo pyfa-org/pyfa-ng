@@ -20,8 +20,8 @@
 
 
 from eos.fit.exception import HolderAlreadyAssignedError
-from .base import HolderContainerBase
-from .exception import SlotTakenError
+from services.eos.fit.holder.container.base import HolderContainerBase
+from services.eos.fit.holder.container.exception import SlotTakenError
 
 
 class HolderList(HolderContainerBase):

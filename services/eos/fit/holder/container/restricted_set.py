@@ -19,7 +19,7 @@
 #===============================================================================
 
 
-from .set import HolderSet
+from services.eos.fit.holder.container.set import HolderSet
 
 
 class HolderRestrictedSet(HolderSet):

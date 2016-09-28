@@ -19,7 +19,7 @@
 #===============================================================================
 
 
-from .holder import HolderBase
+from services.eos.fit.holder.mixin.holder import HolderBase
 
 
 class ImmutableStateMixin(HolderBase):

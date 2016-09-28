@@ -19,4 +19,4 @@
 #===============================================================================
 
 
-from .fit import Fit
+from services.eos.fit.fit import Fit

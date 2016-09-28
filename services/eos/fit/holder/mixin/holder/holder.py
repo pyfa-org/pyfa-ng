@@ -20,7 +20,7 @@
 
 
 from eos.fit.attribute_calculator import MutableAttributeMap
-from .null_source import NullSourceItem
+from services.eos.fit.holder.mixin.holder.null_source import NullSourceItem
 
 
 class HolderBase:

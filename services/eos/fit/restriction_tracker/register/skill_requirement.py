@@ -23,7 +23,7 @@ from collections import namedtuple
 
 from eos.const.eos import Restriction
 from eos.fit.restriction_tracker.exception import RegisterValidationError
-from .abc import RestrictionRegister
+from services.eos.fit.restriction_tracker.register.abc import RestrictionRegister
 
 
 SkillRequirementErrorData = namedtuple('SkillRequirementErrorData', ('skill', 'level', 'required_level'))

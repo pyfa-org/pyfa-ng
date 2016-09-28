@@ -19,7 +19,7 @@
 #===============================================================================
 
 
-from .base import HolderContainerBase
+from services.eos.fit.holder.container.base import HolderContainerBase
 
 
 class HolderDescriptorOnHolder(HolderContainerBase):
