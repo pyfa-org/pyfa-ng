@@ -57,5 +57,5 @@ setup(
     license='GPL',
     author='Pyfa Team',
     author_email='',
-    description='Fitting tool for EVE Online', requires=['kivy']
+    description='Fitting tool for EVE Online', requires=['kivy', 'sqlalchemy']
 )
