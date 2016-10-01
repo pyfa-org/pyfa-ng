@@ -1,34 +1,41 @@
 #:kivy 1.0
 
+#:include kv/menuBar.kv
 #:include kv/leftColumn.kv
 #:include kv/centerColumn.kv
 #:include kv/rightColumn.kv
 
 <main>:
     #label_wid: my_custom_label
+    #canvas.before:
+    #    Color:
+    #        rgba: 1, 1, 1, 1
+    #    Rectangle:
+    #        pos: self.pos
+    #        size: self.size
 
-# Column 1
-    BoxLayout:
-        size_hint: .3, 1
-        orientation: 'vertical'
-        padding: 20
+    GridLayout:
+        rows: 2
+        cols: 1
+        passing: 0
+        spacing: 0
 
-        LeftColumn:
+        MenuBar:
+            minimum_height: 10
+            size_hint: 1, None
 
-# Column 2
+        GridLayout:
+            rows: 1
+            cols: 3
+            passing: 0
+            spacing: 0
+            size_hint: 1, 1
 
-    BoxLayout:
-        size_hint: .4, 1
-        orientation: 'vertical'
-        padding: 20
+            LeftColumn:
+                size_hint: .2, 1
 
-        CenterColumn:
+            CenterColumn:
+                size_hint: .6, 1
 
-# Start column 3
-
-    BoxLayout:
-        size_hint: .3, 1
-        orientation: 'vertical'
-        padding: 20
-
-        RightColumn:
+            RightColumn:
+                size_hint: .2, 1

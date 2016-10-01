@@ -1,20 +1,19 @@
+#:include kv/leftColumnMarket.kv
+
 <LeftColumn>:
     BoxLayout:
         orientation: 'vertical'
-        padding: 20
+        padding: 0
 
-        Accordion:
-            orientation: 'vertical'
+        TabbedPanel:
+            size_hint: 1, 1
+            pos_hint: {'center_x': .5, 'center_y': .5}
+            do_default_tab: False
 
-            AccordionItem:
-                title: 'Market'
-                collapse: False
-
-                Label:
-                    text: 'Show market here'
-
-            AccordionItem:
-                title: 'Ships'
-
+            TabbedPanelItem:
+                text: 'Market'
+                LeftColumnMarket:
+            TabbedPanelItem:
+                text: 'Ships'
                 Label:
                     text: 'Show ship market here'
