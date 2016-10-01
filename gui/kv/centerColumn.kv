@@ -1,0 +1,22 @@
+#:include kv/centerColumnBottomPane.kv
+
+<CenterColumn>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 0
+
+        BoxLayout:
+            size_hint: 1, .5
+            orientation: 'horizontal'
+            padding: 0
+
+            Label:
+                id: my_custom_label
+                text: 'Ship Fitting Window'
+
+        BoxLayout:
+            size_hint: 1, .5
+            orientation: 'horizontal'
+            padding: 0
+
+            CenterColumnBottomPane:

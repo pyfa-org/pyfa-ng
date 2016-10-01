@@ -1,0 +1,34 @@
+#:kivy 1.0
+
+#:include kv/leftColumn.kv
+#:include kv/centerColumn.kv
+#:include kv/rightColumn.kv
+
+<main>:
+    #label_wid: my_custom_label
+
+# Column 1
+    BoxLayout:
+        size_hint: .3, 1
+        orientation: 'vertical'
+        padding: 20
+
+        LeftColumn:
+
+# Column 2
+
+    BoxLayout:
+        size_hint: .4, 1
+        orientation: 'vertical'
+        padding: 20
+
+        CenterColumn:
+
+# Start column 3
+
+    BoxLayout:
+        size_hint: .3, 1
+        orientation: 'vertical'
+        padding: 20
+
+        RightColumn:
