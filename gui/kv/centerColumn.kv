@@ -1,4 +1,5 @@
 #:include kv/centerColumnBottomPane.kv
+#:include kv/shipFitting.kv
 
 <NewWidget@BaseClass>:
     # .. definitions ..
@@ -8,13 +9,10 @@
     GridLayout:
         rows: 2
         cols: 1
-        passing: 10
-        spacing: 10
+        passing: 0
+        spacing: 0
 
-        Label:
-            id: my_custom_label
-            text: 'Ship Fitting Window'
-            size_hint: 1, .5
+        ShipFitting:
 
         CenterColumnBottomPane:
             size_hint: 1, .5
