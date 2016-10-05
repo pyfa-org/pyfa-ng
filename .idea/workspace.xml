@@ -2,1178 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efb92dbc-e52c-4e72-a4f8-c65262cb21bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/pyfa-ng.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/AUTHORS" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/MANIFEST.in" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/_clock.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/_clock.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/_event.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/_event.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/adapters/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/adapters/adapter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/adapters/args_converters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/adapters/dictadapter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/adapters/listadapter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/adapters/models.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/adapters/simplelistadapter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/animation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/atlas.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/base.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/cache.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/clock.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/compat.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/config.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/context.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/audio_avplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/audio_ffpyplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/audio_gi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/audio_gstplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/audio_pygame.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/audio_pygst.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/audio/audio_sdl2.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_android.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_avfoundation.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_avfoundation_implem.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_avfoundation_implem.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_gi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_opencv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_pygst.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/camera/camera_videocapture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/_clipboard_ext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/_clipboard_sdl2.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_android.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_dbusklipper.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_dummy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_gtk3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_nspaste.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_pygame.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_sdl2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_winctypes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_xclip.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/clipboard/clipboard_xsel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/gl/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/_img_sdl2.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_dds.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_ffpyplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_gif.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_imageio.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_pil.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_pygame.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_sdl2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/image/img_tex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/spelling/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/spelling/spelling_enchant.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/spelling/spelling_osxappkit.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/_text_sdl2.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/markup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/text_layout.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/text_layout.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/text_pil.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/text_pygame.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/text/text_sdl2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/video_ffmpeg.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/video_ffpyplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/video_gi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/video_gstplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/video_null.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/video_pyglet.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/video/video_pygst.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/_window_sdl2.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/window_egl_rpi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/window_pygame.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/window_sdl2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/window_x11.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/window_x11_core.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/core/window/window_x11_keytab.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/fonts/DejaVuSans.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/fonts/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/fonts/Roboto-BoldItalic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/fonts/Roboto-Italic.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/fonts/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/fonts/RobotoMono-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/glsl/default.fs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/glsl/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/glsl/default.vs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/glsl/header.fs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/glsl/header.vs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/images/background.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/images/defaulttheme-0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/images/defaulttheme.atlas" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/images/image-loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/images/testpattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/keyboards/azerty.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/keyboards/de.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/keyboards/de_CH.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/keyboards/en_US.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/keyboards/fr_CH.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/keyboards/qwerty.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/keyboards/qwertz.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-24.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-48.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-512.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-64.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/logo/kivy-icon-64.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/settings_kivy.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/data/style.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/deps/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/autobuild.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/doc-requirements.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/gallery.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/disclosure_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/disclosure_up.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/element-class-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/element-enumeration-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/element-field-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/element-method-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/element-property-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/element-structure-16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/fresh.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/jquery-effects-core-and-slide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/jquery.cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/kivy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.static/logo-kivy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/.templates/layout.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/conf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/contact.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/contents.rst.inc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/contribute-unittest.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/contribute.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/examples/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/faq.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/diving.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/drawing.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/events.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/examples.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/first_app.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/framework.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/installation.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/intro.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/layouts.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/packaging.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/properties.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gettingstarted/rules.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gsoc.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gsoc2014.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/gsoc2015.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide-index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/advancedgraphics.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/android.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/architecture.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/basic.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/bestpractices.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/config.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/environment.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/events.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/graphics.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/Events.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/Events.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/api-button.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/custom_layout_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/global_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/guide_customize_step1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/layout_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/pos_hint.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/property_events_binding.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/quickstart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/size_hint[B].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/size_hint[b_].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/size_hint[bb].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/images/size_hint[oB].jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/inputs.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/lang.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/licensing.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/other-frameworks.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/packaging-android-vm.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/packaging-android.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/packaging-ios-prerequisites.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/packaging-ios.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/packaging-osx.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/packaging-windows.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/packaging.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/guide/widgets.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/Kivy_App_Life_Cycle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/Kivy_App_Life_Cycle.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/accordion.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/actionbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/adapters.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anchorlayout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anchorlayout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_bounce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_circ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_cubic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_elastic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_expo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_bounce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_circ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_cubic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_elastic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_expo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_quad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_quart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_quint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_out_sine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_quad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_quart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_quint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_in_sine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_linear.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_bounce.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_circ.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_cubic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_elastic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_expo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_quad.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_quart.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_quint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/anim_out_sine.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/app-settings.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/architecture.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/architecture.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/boxlayout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/boxlayout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/bubble.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/button.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/carousel.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/checkbox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/codeinput.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/colorpicker.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/dropdown.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/easing-modes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/3Drendering__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/animation__animate__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/application__app_suite__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/application__app_with_build__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/application__app_with_kv__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/application__app_with_kv_in_template1__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/camera__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__bezier__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__canvas_stress__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__circle__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__fbo_canvas__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__lines__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__lines_extended__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__mesh__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__multitexture__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__repeat_texture__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__rotation__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__stencil_canvas__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__tesselate__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/canvas__texture__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/demo__camera_puzzle__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/demo__kivycatalog__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/demo__multistroke__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/demo__pictures__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/demo__shadereditor__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/demo__showcase__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/examples/demo__touchtracer__main__py.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/filechooser_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/filechooser_list.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/floatlayout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/floatlayout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gridlayout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gridlayout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gridlayout_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gridlayout_2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gridlayout_3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-animation.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-atlas.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-drawing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-events-class.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-events-clock.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-events-input.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-introduction.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-lang.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/gs-tutorial.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/label.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/line-instruction.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/linux.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/macosx.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/pagelayout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/popup.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/progressbar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/raspberrypi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/relativelayout-doubleposition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/relativelayout-fixedposition.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/rstdocument.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/scatter.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/screenmanager.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/settings_kivy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/settingswithspinner_kivy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/slider.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/spinner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/splitter.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/stacklayout.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/stacklayout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/stacklayout_sizing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/stencilview.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/switch-off.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/switch-on.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/tabbed_panel.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/tesselator-debug.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/tesselator-filled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/textinput-mono.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/textinput-multi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/treeview.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/unicode-char.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/videoplayer-annotation.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/videoplayer.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/vkeyboard.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/images/windows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-result1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-result2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step7.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step8.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/images/win-step9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/installation-android.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/installation-linux.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/installation-osx.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/installation-rpi.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/installation-windows.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/installation.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/installation/troubleshooting-osx.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/kivy-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/kivystyle.sty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/philosophy.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/sphinxext/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/sphinxext/autodoc.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/sphinxext/kivy_pygments_theme.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/sphinxext/preprocess.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials-index.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/crashcourse.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/firstwidget.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/images/guide-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/images/guide-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/images/guide-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/images/guide-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/pong.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/tutorials/pong.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/doc/sources/user-guide.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/effects/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/effects/dampedscroll.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/effects/kinetic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/effects/opacityscroll.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/effects/scroll.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/event.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/3Drendering/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/3Drendering/monkey.obj" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/3Drendering/objloader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/3Drendering/simple.glsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/RST_Editor/editor.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/RST_Editor/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/compass/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/compass/compass.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/compass/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/compass/needle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/compass/rose.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/takepicture/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/takepicture/buildozer.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/takepicture/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/takepicture/shadow32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/android/takepicture/takepicture.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/animation/animate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/app_suite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/app_suite_data/testkvdir.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/app_with_build.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/app_with_kv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/app_with_kv_in_template1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/template1/test.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/test.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/application/testkvfile.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12908_sweet_trip_mm_clap_hi.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12909_sweet_trip_mm_clap_lo.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12910_sweet_trip_mm_clap_mid.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12911_sweet_trip_mm_hat_cl.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12913_sweet_trip_mm_kick_hi.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12914_sweet_trip_mm_kick_lo.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12915_sweet_trip_mm_kick_mid.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12916_sweet_trip_mm_kwik_mod_01.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12917_sweet_trip_mm_kwik_mod_02.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12918_sweet_trip_mm_kwik_mod_03.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12919_sweet_trip_mm_kwik_mod_04.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12920_sweet_trip_mm_kwik_mod_05.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12921_sweet_trip_mm_kwik_mod_06.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12922_sweet_trip_mm_kwik_mod_07.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12923_sweet_trip_mm_metal_clave.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12925_sweet_trip_mm_sweep_x.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12926_sweet_trip_mm_sweep_y.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/12927_sweet_trip_mm_sweep_z.wav" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/audio.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/buildozer.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/audio/pitch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/camera/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/bezier.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/canvas_stress.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/circle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/fbo_canvas.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/kiwi.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/lines.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/lines_extended.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/mesh.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/mesh_manipulation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/mtexture1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/mtexture2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/multitexture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/repeat_texture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/rotation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/rounded_rectangle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/scale.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/stencil_canvas.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/tesselate.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/texture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/canvas/texture_example_image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/container/kv/1.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/container/kv/2.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/container/kv/3.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/container/kv/root.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/container/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/camera_puzzle.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/AnchorLayoutContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/BoxLayoutContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/ButtonContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/CheckBoxContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/FileChooserContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/FloatLayoutContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/GridLayoutContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/LabelContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/MediaContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/PlaygroundContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/PopupContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/ProgressBarContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/RestContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/ScatterContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/SelectorsContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/StackLayoutContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/container_kvs/TextContainer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/kivycatalog.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/kivycatalog/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/gesturedatabase.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/gesturedatabase.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/helpers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/historymanager.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/historymanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/multistroke.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/settings.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/multistroke/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/images/.empty" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/images/Bubbles.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/images/Ill1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/images/Wall.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/images/faust_github.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/pictures.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/pictures/shadow32.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/shadereditor/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/shadereditor/shadereditor.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/faust_github.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/icons/README" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/icons/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/icons/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/icons/sourcecode.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/accordions.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/bubbles.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/buttons.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/carousel.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/checkboxes.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/codeinput.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/dropdown.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/filechoosers.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/popups.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/progressbar.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/rstdocument.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/scatter.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/screenmanager.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/sliders.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/spinner.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/splitter.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/switches.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/tabbedpanel + layouts.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/textinputs.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/data/screens/togglebutton.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/showcase/showcase.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/touchtracer/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/touchtracer/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/touchtracer/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/touchtracer/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/touchtracer/particle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/demo/touchtracer/touchtracer.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/frameworks/twisted/echo_client_app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/frameworks/twisted/echo_server_app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/frameworks/twisted/twistd_app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/gestures/gesture_board.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/gestures/my_gestures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/designwithkv/controller.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/designwithkv/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/firstwidget/1_skeleton.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/firstwidget/2_print_touch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/firstwidget/3_draw_ellipse.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/firstwidget/4_draw_line.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/firstwidget/5_random_colors.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/firstwidget/6_button.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/guide/quickstart/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/includes/button.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/includes/layout.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/includes/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/includes/test.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/keyboard/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/keyboard/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/keyboard/numeric.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kinect/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kinect/kinectviewer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_button.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_camera.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_fbo.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_layout.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_logo.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_scatter.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_stencil.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/app_video.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/builder_template.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/ids/id_in_kv/id_in_kv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/ids/id_in_kv/test.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/ids/kv_and_py/kv_and_py.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/ids/kv_and_py/test.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/kivy.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/kv/kvrun.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/miscellaneous/clipboard.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/miscellaneous/multiple_dropfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/miscellaneous/two_panes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/settings/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/settings/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/shader/plasma.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/shader/plasma.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/shader/shadertree.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/shader/shadertree.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/shader/tex3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/benchmark.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/cloud.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/main-smaa.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/music.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/ship.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/sun.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/svg/tiger.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/notes/final/buildozer.spec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/notes/final/data/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/notes/final/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/notes/final/note.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/pong.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step1/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step1/pong.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step2/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step2/pong.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step3/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step3/pong.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step4/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step4/pong.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step5/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/tutorials/pong/steps/step5/pong.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/accordion_1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/actionbar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/asyncimage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/boxlayout_poshint.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/bubble_test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/camera.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/carousel_buttons.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/codeinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/codeinputtest.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/colorpicker.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/compound_selection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/customcollide.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/effectwidget.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/effectwidget2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/effectwidget3_advanced.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/fbowidget.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/focus_behavior.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/image_mipmap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/keyboardlistener.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/label_mipmap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/label_sizing.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/label_text_size.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/label_with_markup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lang_dynamic_classes.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fixtures.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_detail_view.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Apple.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Apple.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Apple.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Apple.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Apple.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Avocado.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Avocado.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Avocado.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Avocado.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Avocado.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Banana.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Banana.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Banana.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Banana.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Banana.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cantaloupe.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cantaloupe.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cantaloupe.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cantaloupe.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cantaloupe.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cherry.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cherry.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cherry.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cherry.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Cherry.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grape.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grape.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grape.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grape.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grape.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grapefruit.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grapefruit.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grapefruit.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grapefruit.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Grapefruit.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Honeydew.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Honeydew.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Honeydew.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Honeydew.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Honeydew.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Kiwifruit.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Kiwifruit.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Kiwifruit.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Kiwifruit.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Kiwifruit.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lemon.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lemon.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lemon.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lemon.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lemon.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lime.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lime.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lime.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lime.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Lime.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Nectarine.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Nectarine.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Nectarine.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Nectarine.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Nectarine.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Orange.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Orange.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Orange.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Orange.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Orange.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Peach.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Peach.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Peach.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Peach.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Peach.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pear.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pear.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pear.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pear.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pear.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pineapple.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pineapple.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pineapple.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pineapple.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Pineapple.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Plum.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Plum.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Plum.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Plum.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Plum.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Strawberry.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Strawberry.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Strawberry.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Strawberry.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Strawberry.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Tangerine.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Tangerine.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Tangerine.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Tangerine.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Tangerine.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Watermelon.128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Watermelon.256.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Watermelon.32.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Watermelon.512.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/Watermelon.64.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/fruit_images/fruit_image_attribution.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_cascade.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_cascade_dict.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_cascade_images.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_composite.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_kv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_master_detail.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_ops.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_reset_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_simple.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_simple_in_kv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_simple_in_kv_2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/lists/list_two_up.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/pagelayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/popup_with_kv.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/recycleview/basic_data.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/rstexample.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/scatter.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/scatter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/screenmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/scrollview.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/scrollview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/android.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/data/images/ClickHereButton-animated.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/data/images/RingGreen.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/data/images/busy-stick-figures-animated.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/data/images/button_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/data/images/button_white_animated.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/data/images/info.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/data/images/info.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/main.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/uix/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/sequenced_images/uix/custom_button.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/shorten_text.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/softboy.jsa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/softboy.mpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/softboy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/spinner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/splitter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/tabbed_panel_showcase.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/tabbedpanel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/textalign.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/textalign.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/textinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/unicode_textinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/examples/widgets/videoplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/ext/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/extras/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/extras/highlight.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/factory.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/factory_registers.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/garden/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/geometry.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/gesture.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/buffer.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/buffer.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/c_opengl.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/c_opengl_debug.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/c_opengl_debug.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/c_opengl_mock.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/c_opengl_mock.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/common.pxi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/common_subset.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/compiler.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/compiler.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/context.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/context.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/context_instructions.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/context_instructions.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/fbo.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/fbo.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/gl2platform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/gl_debug_logger.pxi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/gl_instructions.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/gl_mock.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/gl_redirect.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/img_tools.pxi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/instructions.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/instructions.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/khrplatform.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/opcodes.pxi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/opengl.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/opengl_utils.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/opengl_utils.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/opengl_utils_def.pxi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/scissor_instructions.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/shader.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/shader.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/stencil_instructions.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/stencil_instructions.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/svg.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/svg.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/tesselator.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/tesselator.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/texture.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/texture.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/transformation.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/transformation.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/vbo.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/vbo.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/vertex.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/vertex.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/vertex_instructions.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/vertex_instructions.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/graphics/vertex_instructions_line.pxi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/factory.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/motionevent.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/postproc/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/postproc/calibration.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/postproc/dejitter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/postproc/doubletap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/postproc/ignorelist.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/postproc/retaintouch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/postproc/tripletap.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/provider.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/androidjoystick.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/hidinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/leapfinger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/linuxwacom.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/mactouch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/mouse.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/mtdev.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/probesysfs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/tuio.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/wm_common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/wm_pen.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/providers/wm_touch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/recorder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/input/shape.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/interactive.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lang/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lang/builder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lang/parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/ddsfile.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/gstplayer/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/gstplayer/_gstplayer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/gstplayer/_gstplayer.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Include/tesselator.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/bucketalloc.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/bucketalloc.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/dict.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/dict.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/geom.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/geom.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/mesh.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/mesh.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/priorityq.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/priorityq.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/sweep.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/sweep.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/tess.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/libtess2/Source/tess.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/mtdev.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/osc/OSC.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/osc/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/osc/oscAPI.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/sdl2.pxi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/vidcore_lite/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/vidcore_lite/bcm.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/vidcore_lite/bcm.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/lib/vidcore_lite/egl.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/loader.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/logger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/metrics.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/_webdebugger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/console.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/inspector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/keybinding.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/monitor.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/recorder.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/screen.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/touchring.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/modules/webdebugger.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/multistroke.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/network/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/network/urlrequest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/parser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/properties.pxd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/properties.pyx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/resources.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/setup.cfg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/setup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/storage/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/storage/dictstore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/storage/jsonstore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/storage/redisstore.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/support.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/common.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/perf_test_textinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/sample1.ogg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_adapters.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_animations.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_app.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_audio.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_clipboard.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_clock.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_doc_gallery.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_filechooser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_filechooser_unicode.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_fonts.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_graphics.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_image.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_invalid_lang.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_issue_1084.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_issue_1091.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_issue_599.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_issue_609.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_issue_883.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_knspace.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_lang.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_lang_complex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_multistroke.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_properties.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_selection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_storage.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_anchorlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_boxlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_gridlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_layout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_listview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_relativelayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_stacklayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_textinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_uix_widget.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_urlrequest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_vector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_video.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_widget.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/test_widget_walk.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/testkv.kv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/unicode_files.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/unicode_font.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tests/visual_test_label.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/benchmark.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/extensions/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/extensions/make-kivyext.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/generate-icons.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/gles_compat/gl2.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/gles_compat/subset_gles.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/highlight/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/highlight/kivy-mode.el" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/highlight/kivy.json-tmlanguage" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/highlight/kivy.tmLanguage" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/highlight/kivy.vim" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/kviewer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/packaging/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/packaging/factory.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/packaging/pyinstaller_hooks/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/packaging/pyinstaller_hooks/__main__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/packaging/pyinstaller_hooks/hook-kivy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/packaging/pyinstaller_hooks/pyi_rth_kivy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/pep8checker/pep8.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/pep8checker/pep8base.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/pep8checker/pep8kivy.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/pep8checker/pre-commit.githook" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/pep8checker/sample_for_pep8.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/report.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/stub-gl-debug.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/texturecompress.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/action_bar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/action_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/action_group_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/action_group_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/action_item.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/action_item_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/action_view.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/audio-volume-high.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/audio-volume-low.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/audio-volume-medium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/audio-volume-muted.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/bubble.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/bubble_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/bubble_btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/bubble_btn_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/button_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/button_disabled_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/button_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_disabled_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_disabled_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_radio_disabled_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_radio_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/checkbox_radio_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/filechooser_file.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/filechooser_folder.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/filechooser_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/image-missing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/media-playback-pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/media-playback-start.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/media-playback-stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/modalview-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/overflow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/player-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/player-play-overlay.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/previous_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/progressbar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/progressbar_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/ring.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/selector_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/selector_middle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/selector_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/separator.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/slider_cursor.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/slider_cursor_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/sliderh_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/sliderh_background_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/sliderv_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/sliderv_background_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/spinner.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/spinner_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/spinner_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_disabled_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_disabled_down_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_disabled_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_down_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_grip.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_grip_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/splitter_h.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/switch-background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/switch-background_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/switch-button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/switch-button_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tab.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tab_btn.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tab_btn_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tab_btn_disabled_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tab_btn_pressed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tab_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/textinput.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/textinput_active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/textinput_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/textinput_disabled_active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tree_closed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/tree_opened.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/vkeyboard_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/vkeyboard_disabled_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/vkeyboard_disabled_key_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/vkeyboard_key_down.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/theming/defaulttheme/vkeyboard_key_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/tools/travis/id_rsa.enc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/abstractview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/accordion.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/actionbar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/anchorlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/button.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/codenavigation.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/compoundselection.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/drag.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/emacs.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/focus.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/knspace.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/behaviors/togglebutton.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/boxlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/bubble.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/button.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/camera.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/carousel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/checkbox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/codeinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/colorpicker.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/dropdown.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/effectwidget.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/filechooser.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/floatlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/gesturesurface.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/gridlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/image.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/label.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/layout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/listview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/modalview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/pagelayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/popup.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/progressbar.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/recycleboxlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/recyclegridlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/recyclelayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/recycleview/__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/recycleview/datamodel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/recycleview/layout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/recycleview/views.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/relativelayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/rst.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/sandbox.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/scatter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/scatterlayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/screenmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/scrollview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/selectableview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/settings.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/slider.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/spinner.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/splitter.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/stacklayout.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/stencilview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/switch.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/tabbedpanel.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/textinput.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/togglebutton.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/treeview.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/video.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/videoplayer.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/vkeyboard.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/uix/widget.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/utils.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/vector.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/weakmethod.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/kivy/weakproxy.pyx" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pyfa-ng.iml" afterPath="$PROJECT_DIR$/.idea/pyfa-ng.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/kv/centerColumn.kv" afterPath="$PROJECT_DIR$/gui/kv/centerColumn.kv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/kv/centerColumnBottomPane.kv" afterPath="$PROJECT_DIR$/gui/kv/centerColumnBottomPane.kv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/kv/rightColumn.kv" afterPath="$PROJECT_DIR$/gui/kv/rightColumn.kv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/main.kv" afterPath="$PROJECT_DIR$/gui/main.kv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/main.py" afterPath="$PROJECT_DIR$/gui/main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pyfa.py" afterPath="$PROJECT_DIR$/pyfa.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/eos/__init__.py" afterPath="$PROJECT_DIR$/services/eos/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <ignored path="pyfa-ng.iws" />
@@ -1194,33 +31,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.py">
+      <file leaf-file-name="rightColumn.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/kv/rightColumn.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="204">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pyfa.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyfa.py">
+      <file leaf-file-name="shipFitting.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/kv/shipFitting.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1190">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/services/eos/__init__.py">
+      <file leaf-file-name="centerColumn.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/kv/centerColumn.kv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+            <state relative-caret-position="289">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statPaneFitting.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/kv/statPaneFitting.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statPaneQuick.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/kv/statPaneQuick.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/main.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="centerColumnBottomPane.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/kv/centerColumnBottomPane.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leftColumn.kv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui/kv/leftColumn.kv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="22" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1231,8 +136,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Setup Script" />
         <option value="Python Script" />
+        <option value="Setup Script" />
       </list>
     </option>
   </component>
@@ -1242,16 +147,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/pyfa.py" />
         <option value="$PROJECT_DIR$/services/eos/__init__.py" />
+        <option value="$PROJECT_DIR$/gui/kv/statPaneQuickStats.kv" />
+        <option value="$PROJECT_DIR$/gui/uix/statsPane.py" />
+        <option value="$PROJECT_DIR$/gui/statsPane.py" />
+        <option value="$PROJECT_DIR$/gui/kv/statPaneQuick.kv" />
+        <option value="$PROJECT_DIR$/gui/kv/statPaneFitting.kv" />
+        <option value="$PROJECT_DIR$/gui/kv/rightColumn.kv" />
+        <option value="$PROJECT_DIR$/gui/kv/centerColumn.kv" />
+        <option value="$PROJECT_DIR$/gui/kv/centerColumnBottomPane.kv" />
+        <option value="$PROJECT_DIR$/gui/main.kv" />
+        <option value="$PROJECT_DIR$/gui/kv/shipFitting.kv" />
+        <option value="$PROJECT_DIR$/pyfa.py" />
+        <option value="$PROJECT_DIR$/gui/main.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="544" />
-    <option name="y" value="-1058" />
-    <option name="width" value="1399" />
+    <option name="x" value="15" />
+    <option name="y" value="32" />
+    <option name="width" value="1564" />
     <option name="height" value="992" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -1279,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1307,11 +224,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eos" />
+              <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1325,36 +238,123 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
+              <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="eos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fit" />
+              <option name="myItemId" value="kv" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Python35-32/python.exe" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Ebag333/Documents/GitHub/pyfa-ng/gui/kv/centerColumn.kv" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ebag333\Documents\GitHub\pyfa-ng\gui" />
       <recent name="C:\Users\Ebag333\Documents\GitHub\pyfa-ng\services" />
       <recent name="C:\Users\Ebag333\Documents\GitHub\pyfa-ng\services\temp" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyfa-ng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in app_suite" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/KivyExamples/application" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyfa-ng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/KivyExamples/application/app_suite.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/KivyExamples/container" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyfa-ng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/KivyExamples/container/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/KivyExamples/demo/kivycatalog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyfa-ng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/KivyExamples/demo/kivycatalog/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples/KivyExamples/demo/showcase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyfa-ng" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples/KivyExamples/demo/showcase/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1489,6 +489,22 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in app_suite" />
+      <item index="2" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.main (3)" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.main (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in app_suite" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1503,18 +519,21 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_app_suite - 2016.10.04 at 06h 59m 58s.xml">
+      <configuration name="Unittests in app_suite" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="544" y="-1058" width="1399" height="992" extended-state="0" />
+    <frame x="15" y="32" width="1564" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24981631" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22280473" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -1524,6 +543,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1539,10 +560,187 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gui/kv/rightColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/shipFitting.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/centerColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/statPaneFitting.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/statPaneQuick.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/main.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/centerColumnBottomPane.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/leftColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/rightColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/shipFitting.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/centerColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/statPaneFitting.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/statPaneQuick.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/main.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/centerColumnBottomPane.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/leftColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyfa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1555,44 +753,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kivy/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/services/eos/__init__.py">
+    <entry file="file://$PROJECT_DIR$/services/eos/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/services/eos/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/gui/kv/statPaneQuickStats.kv" />
+    <entry file="file://C:/Python27/Lib/site-packages/kivy/uix/behaviors/button.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="284">
+          <caret line="140" column="8" selection-start-line="140" selection-start-column="8" selection-end-line="140" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/dropdownChar.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/paneCharImplants.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/KivyExamples/demo/showcase/data/screens/splitter.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/menuBar.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/statsPane.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4875">
+          <caret line="160" column="51" selection-start-line="160" selection-start-column="51" selection-end-line="160" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/rightColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt" />
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/gui/kv/statPaneFitting.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+        <state relative-caret-position="544">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/leftColumn.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="7" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/centerColumnBottomPane.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/main.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="51" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/statPaneQuick.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="33" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/kv/shipFitting.kv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyfa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services/eos/__init__.py">
+    <entry file="file://$PROJECT_DIR$/gui/kv/centerColumn.kv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
