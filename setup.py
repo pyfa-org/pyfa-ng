@@ -9,10 +9,5 @@ setup(
     author='Pyfa Team',
     author_email='',
     description='Fitting tool for EVE Online',
-    requires=['Cython', 'wheel', 'kivy.deps.sdl2', 'kivy.deps.glew', 'kivy', 'kivy-garden','sqlalchemy', 'pycrest', 'eos']
+    requires=['kivy', 'sqlalchemy', 'pycrest']
 )
-
-
-# Might need these for Kivy
-# 'docutils', 'pygments',
-# 'kivy.deps.gstreamer',

@@ -6,55 +6,36 @@
 #:include kv/rightColumn.kv
 
 <main>:
-    BoxLayout:
-        orientation: 'vertical'
+    #label_wid: my_custom_label
+    #canvas.before:
+    #    Color:
+    #        rgba: 1, 1, 1, 1
+    #    Rectangle:
+    #        pos: self.pos
+    #        size: self.size
+
+    GridLayout:
+        rows: 2
+        cols: 1
+        passing: 0
+        spacing: 0
 
         MenuBar:
-            height: 50
+            minimum_height: 10
             size_hint: 1, None
 
-        BoxLayout:
-            orientation: 'horizontal'
+        GridLayout:
+            rows: 1
+            cols: 3
+            passing: 0
+            spacing: 0
             size_hint: 1, 1
-            id: mainBox
 
-            BoxLayout:
-                id: all
-                min_view_size: sp(30)
-                strip_size: sp(13)
-                #orientation: 'vertical' if self.width < self.height else 'horizontal'
-                orientation: 'horizontal'
-                vertical: self.orientation == 'vertical'
-                bigger_size: self.height if self.vertical else self.width
-                default_part_size: (self.bigger_size - self.strip_size*2)/3
+            LeftColumn:
+                size_hint: .2, 1
 
-                # Reset part sizes when orientation changes
-                on_vertical:
-                    if args[1]: (splitter1.height, splitter2.height) = (self.default_part_size, self.default_part_size)
-                    if not args[1]: (splitter1.width, splitter2.width) = (self.default_part_size, self.default_part_size)
+            CenterColumn:
+                size_hint: .6, 1
 
-                Splitter:
-                    size_hint: .3, 1
-                    id: splitter1
-                    strip_size: all.strip_size
-                    max_size: all.bigger_size - (all.min_view_size + all.strip_size)*2
-                    min_size: all.min_view_size + all.strip_size
-                    sizable_from: 'bottom' if all.vertical else 'right'
-                    size_hint: (1, None) if all.vertical else (None, 1)
-                    size: (all.width, all.default_part_size) if all.vertical else (all.default_part_size, all.height)
-
-                    LeftColumn:
-                        size_hint: 1, 1
-
-
-                BoxLayout:
-                    size_hint: .7, 1
-                    CenterColumn:
-                        size_hint: 1, 1
-
-            BoxLayout:
-                size_hint: None, 1
-                width: 100
-
-                RightColumn:
-                    size_hint: 1, 1
+            RightColumn:
+                size_hint: .2, 1

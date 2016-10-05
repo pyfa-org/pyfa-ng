@@ -1,31 +1,29 @@
 
 <CenterColumnBottomPane>:
+    Accordion:
+        orientation: 'vertical'
 
-    TabbedPanel:
-        size_hint: 1, 1
-        pos_hint: {'center_x': .5, 'center_y': .5}
-        do_default_tab: False
-
-        TabbedPanelItem:
-            text: 'Drones\nFighters'
+        AccordionItem:
+            title: 'Drones\Fighters'
+            collapse: False
 
             Label:
                 text: 'Show things like:\nDrones\nFighters'
 
-        TabbedPanelItem:
-            text: 'Cargo'
+        AccordionItem:
+            title: 'Cargo'
+
             Label:
                 text: 'Cargo'
 
+        AccordionItem:
+            title: 'Character\Implants'
 
-        TabbedPanelItem:
-            text: 'Character\nImplants'
             Label:
                 text: 'Unified window for selecting\ncharacter and implants'
 
-
-        TabbedPanelItem:
-            text: 'Projected\nEffects'
+        AccordionItem:
+            title: 'Projected Effects'
 
             Label:
                 text: 'See current panel'
